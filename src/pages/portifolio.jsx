@@ -2,17 +2,17 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 export default function AppRoutes() {
   return (
-    <Routes>
+    <div>
+        yes        
+    </div>
+    // <Routes>
 
-      {/* Sua página inicial */}
-      <Route path="/" element={<Home />} />
+    //   {/* Sua página inicial */}
+    //   <Route path="/" element={<Home />} />
 
-      {/* Quando acessar /portifolio → redireciona para / */}
-      <Route path="/portifolio" element={<Navigate to="/" />} />
+    //   {/* Quando acessar /portifolio → redireciona para / */}
+    //   <Route path="/portifolio" element={<Navigate to="/" />} />
 
-      {/* Outras rotas */}
-      <Route path="*" element={<NotFound />} />
-
-    </Routes>
+    // </Routes>
   );
 }
