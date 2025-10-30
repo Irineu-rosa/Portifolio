@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter basename="/portifolio"> 
+    <BrowserRouter basename="/portifolio">      
       <nav className="navbar">
         <div className="logo">Irineu<span>Rosa</span></div>
         <div className="nav-links">
@@ -18,21 +18,16 @@ function App() {
         </div>
       </nav>
 
-      {/* Rotas menu*/}
       <Routes>
-
-        {/* Página principal */}
+        {/* Página inicial */}
         <Route path="/" element={<Home />} />
 
-        {/* Redirecionamento: quando acessar /portifolio → ir para / */}
+        {/* Quando acessar /portifolio → ir para / */}
         <Route path="/portifolio" element={<Navigate to="/" />} />
 
         <Route path="/sobre_mim" element={<Sobre />} />
         <Route path="/conhecimentos" element={<Conhecimentos />} />
-
-        {/* Se quiser abrir a página Portifolio separadamente */}
         <Route path="/meu_portifolio" element={<Portifolio />} />
-
       </Routes>
 
       <Rodape />
