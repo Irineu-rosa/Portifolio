@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
+import './css/page_home.css';
 
 export default function AppRoutes() {
   return (
