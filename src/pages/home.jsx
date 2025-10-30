@@ -8,6 +8,7 @@ export default function Home() {
       <div class="hero-content">
         <h1>Olá, eu sou <span>Irineu Rosa</span></h1>
         <p>Desenvolvedor Web apaixonado por criar experiências digitais incríveis.</p>
+        <p>Meu portfólio ainda está em desenvolvimento e será atualizado continuamente conforme eu tiver tempo disponível.</p>
         <a href="https://github.com/Irineu-rosa" 
         target="_blank"        
         class="btn">Ver meus projetos</a>

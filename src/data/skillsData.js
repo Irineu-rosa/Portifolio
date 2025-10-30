@@ -68,5 +68,46 @@ export const skillsData = {
       "Animações",
       "Componentes personalizados"
     ]
+  },
+    "🐘 MySQL": {
+    title: "MySQL",
+    description: `
+    Banco de dados relacional muito utilizado em aplicações web.
+    Experiência com consultas, modelagem e rotinas SQL.
+    `,
+    whatIKnow: [
+      "Criação e modelagem de tabelas",
+      "SELECT, UPDATE, DELETE, INSERT",
+      "JOINs e subconsultas",
+      "Procedures, triggers e views"
+    ]
+  },
+
+  "🐘 PHP": {
+    title: "PHP",
+    description: `
+    Linguagem muito utilizada no backend de aplicações web.  
+    Experiência em desenvolvimento de sistemas dinâmicos e integração com bancos.
+    `,
+    whatIKnow: [
+      "Programação estruturada e orientada a objetos",
+      "APIs com PHP",
+      "Integração com MySQL e PostgreSQL",
+      "Formulários e validações"
+    ]
+  },
+
+  "📄 HTML": {
+    title: "HTML",
+    description: `
+    HTML é a base de qualquer página web.  
+    Uso para estruturar aplicações e criar layouts semânticos.
+    `,
+    whatIKnow: [
+      "Estruturação de páginas",
+      "Tags semânticas",
+      "Formulários",
+      "Acessibilidade"
+    ]
   }
 };
