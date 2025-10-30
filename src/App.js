@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import Sobre from "./pages/sobre_mim.jsx";
 import Conhecimentos from "./pages/conhecimentos.jsx";
@@ -19,14 +19,23 @@ function App() {
       </nav>
 
       {/* Rotas menu*/}
-    <Routes>
-      <Route path="/" element={<Portifolio />} />
-      <Route path="/" element={<Home />} />
-      <Route path="/sobre_mim" element={<Sobre />} />
-      <Route path="/conhecimentos" element={<Conhecimentos />} />
-    </Routes>
+      <Routes>
 
-    <Rodape></Rodape>
+        {/* Página principal */}
+        <Route path="/" element={<Home />} />
+
+        {/* Redirecionamento: quando acessar /portifolio → ir para / */}
+        <Route path="/portifolio" element={<Navigate to="/" />} />
+
+        <Route path="/sobre_mim" element={<Sobre />} />
+        <Route path="/conhecimentos" element={<Conhecimentos />} />
+
+        {/* Se quiser abrir a página Portifolio separadamente */}
+        <Route path="/meu_portifolio" element={<Portifolio />} />
+
+      </Routes>
+
+      <Rodape />
     </BrowserRouter>
   );
 }
