@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>      
+    <BrowserRouter basename="/portifolio"> 
       <nav className="navbar">
         <div className="logo">Irineu<span>Rosa</span></div>
         <div className="nav-links">
