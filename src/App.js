@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import Sobre from "./pages/sobre_mim.jsx";
 import Conhecimentos from "./pages/conhecimentos.jsx";
+import Portifolio from "./pages/portifolio.jsx";
 import Rodape from "./components/Footer.jsx";
 import './App.css'
 
@@ -19,6 +20,7 @@ function App() {
 
       {/* Rotas menu*/}
     <Routes>
+      <Route path="/" element={<Portifolio />} />
       <Route path="/" element={<Home />} />
       <Route path="/sobre_mim" element={<Sobre />} />
       <Route path="/conhecimentos" element={<Conhecimentos />} />
