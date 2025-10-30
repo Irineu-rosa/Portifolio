@@ -76,6 +76,13 @@
   .page_sobre {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 }
 

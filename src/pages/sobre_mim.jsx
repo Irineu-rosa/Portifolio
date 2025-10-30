@@ -20,7 +20,7 @@ export default function Sobre() {
           <br/><br/>
           Sou movido por evolução, desafios e pela vontade constante de aprender algo novo. Cada projeto é uma oportunidade de crescer, melhorar e entregar o meu melhor.
         </p>        
-
+          
         <a
           href="https://www.linkedin.com/in/irineu-rosa-9b5705207/"
           target="_blank"
