@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page_sobre {  
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 80px 10%;
+  color: #f0f6fc;
+  background: #0d1117;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  width: 100%;
+} 
+.perfil img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  border: 3px solid #00aaff;
+  box-shadow:
+    0 0 10px #00aaff,
+    0 0 20px #00aaff,
+    0 0 40px #00aaff;
+  animation: neonPulse 2.5s infinite alternate ease-in-out;
+}
+
+.info {
+  max-width: 600px;
+  animation: fadeIn 1.5s ease;
+}
+
+.info h1 {
+  font-size: 2rem;
+  color: #58a6ff;
+}
+
+.info h3 {
+  color: #8b949e;
+  margin-bottom: 15px;
+}
+
+.info h4 {
+  color: #8b949e;
+  margin-bottom: 15px;
+  border-bottom: 10px;
+}
+
+.info p {
+  color: #c9d1d9;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.btn-linkedin {
+  background: #0077b5;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-linkedin:hover {
+  background: #0096d6;
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .page_sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#linkedinIcon {
+  height: 25px;
+  width:  25px;
+  padding: 0;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 230px;
+}
+
+.skillsLista{
+  animation: fadeIn 3s ease;
+}
