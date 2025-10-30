@@ -18,13 +18,9 @@ function App() {
         </div>
       </nav>
 
-      <Routes>
-        {/* Página inicial */}
-        <Route path="/" element={<Home />} />
-
-        {/* Quando acessar /portifolio → ir para / */}
+      <Routes>        
+        <Route path="/" element={<Home />} />        
         <Route path="/portifolio" element={<Navigate to="/" />} />
-
         <Route path="/sobre_mim" element={<Sobre />} />
         <Route path="/conhecimentos" element={<Conhecimentos />} />
         <Route path="/meu_portifolio" element={<Portifolio />} />
