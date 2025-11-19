@@ -14,7 +14,7 @@ export default function Home() {
         class="btn">Ver meus projetos</a>
       </div>
       <div class="hero-image">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHEpNjHGUbWGg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725535868253?e=1762992000&v=beta&t=inPsCcEWgcGOxxN7mIjYTUjfsoTOK7AGckRmVLUe4KQ" alt="Developer Illustration"/>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQF5yFUDFPnqjA/profile-framedphoto-shrink_400_400/B4DZqSdSaiHwAc-/0/1763393742803?e=1764172800&v=beta&t=0iI6SuOJ_OxYdiYzLDGReSCOb6aCY0YiDo9BzsBHHuE" alt="Developer Illustration"/>
       </div>
     </section>
 
